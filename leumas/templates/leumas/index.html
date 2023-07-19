@@ -1,0 +1,1406 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!--
+		Basic
+	-->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Sam's Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="Samuel's Portfolio" />
+	<meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, cards, portfolio" />
+	<meta name="author" content="Samuel" />
+
+	<!--
+		Load Fonts
+	-->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=cyrillic"
+		rel="stylesheet">
+
+	<!--
+		Load CSS
+	-->
+	<link rel="stylesheet" href="{% static 'css/basic.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/layout.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/blogs.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/line-awesome.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/simplebar.css' %}" />
+
+	<!-- theme colors -->
+	<!--<link rel="stylesheet" href="{% static 'css/theme-colors/green.css' %}" /> -->
+	<link rel="stylesheet" href="{% static 'css/theme-colors/blue.css' %}" />
+	<!--<link rel="stylesheet" href="{% static 'css/theme-colors/red.css' %}" />-->
+	<!--<link rel="stylesheet" href="{% static 'css/theme-colors/orange.css' %}" />-->
+	<!--<link rel="stylesheet" href="{% static 'css/theme-colors/pink.css' %}" />-->
+	<!--<link rel="stylesheet" href="{% static 'css/theme-colors/purple.css' %}" />-->
+
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js' %}"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js' %}"></script>
+	<![endif]-->
+
+	<!--
+		Favicons
+	-->
+	<link rel="shortcut icon" href="{% static 'images/favicons/favicon.ico' %}">
+
+
+</head>
+
+<body>
+	<div class="page">
+
+		<!--
+			Preloader
+		-->
+		<div class="preloader">
+			<div class="centrize full-width">
+				<div class="vertical-center">
+					<div class="spinner">
+						<div class="double-bounce1"></div>
+						<div class="double-bounce2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--
+			Header
+		-->
+		<header class="header">
+
+			<!-- logo -->
+			<div class="logo">
+				<a href="#"><span>S</span></a>
+			</div>
+
+			<!-- menu -->
+			<div class="top-menu">
+				<ul>
+					<li class="active">
+						<a href="#home-card">
+							<span class="icon la la-home"></span>
+							<span class="link">Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="#about-card">
+							<span class="icon la la-user"></span>
+							<span class="link">About</span>
+						</a>
+					</li>
+					<li>
+						<a href="#resume-card">
+							<span class="icon la la-gear"></span>
+							<span class="link">Resume</span>
+						</a>
+					</li>
+					<li>
+						<a href="#works-card">
+							<span class="icon la la-eye"></span>
+							<span class="link">Portfolio</span>
+						</a>
+					</li>
+					<li>
+						<a href="#blog-card">
+							<span class="icon la la-newspaper-o"></span>
+							<span class="link">Blog</span>
+						</a>
+					</li>
+					<li>
+						<a href="#contacts-card">
+							<span class="icon la la-envelope"></span>
+							<span class="link">Contacts</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- Started socials -->
+			<div class="social">
+				<a target="_blank" href="https://join.skype.com/invite/e69OodiEyI6c"><span
+						class="icon la la-skype"></span></a>
+				<a target="_blank" href="https://twitter.com/haryourr"><span class="icon la la-twitter"></span></a>
+				<a target="_blank" href="https://github.com/leumasj"><span class="icon la la-github"></span></a>
+				<a target="_blank" href="https://linkedin.com/in/adomeh7177"><span
+						class="icon la la-linkedin"></span></a>
+			</div>
+
+			<!-- Mobile Menu -->
+			<span class="menu-btn">
+				<span class="m-line"></span>
+			</span>
+
+		</header>
+
+		<!--
+			Container
+		-->
+		<div class="container">
+
+			<!--
+				Card - Started
+			-->
+			<div class="card-inner card-started active" id="home-card">
+
+				<!-- Started Background -->
+				<div class="slide" style="background-image: url('{% static "images/bg.jpg" %}')"></div>
+				<!-- image -->
+
+
+				<div class="centrize full-width">
+					<div class="vertical-center">
+
+						<!-- Started titles -->
+						<div class="title"><span>Samuel</span> Adomeh</div>
+						<div class="subtitle">
+							I am
+							<div class="typing-title">
+								<p>a <strong>System Analyst.</strong></p>
+								<p>a <strong>DevOps Engineer.</strong></p>
+								<p>a <strong>Freelancer.</strong></p>
+								<p>a <strong>Fullstack.</strong></p>
+							</div>
+							<span class="typed-title"></span>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			<!-- 
+				Card - About
+			-->
+			<div class="card-inner" id="about-card">
+				<div class="row card-container">
+
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+
+						<!-- About Image -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
+							style="background-image: url({% static 'images/profile.jpg'%})" ;></div>
+
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">About Me</div>
+									<div class="text">
+										<p>
+											<strong>Hello, I’m Samuel</strong>, DevOps Engineer based in Poland.
+											<br />
+											I have wide range of experience in project management & software development
+											life circle <br />
+											and a well detail-oriented IT professional with over five years of experience as
+											a DevOps Engineer, System Admininstrator and an IT Consultant. You can request for my CV for more details.
+											Also I am good at <strong>Python, Golang, <br />
+												Database Management, ERP , Web Development (Fullstack.), Cloud Technology, System Administrations and Data Analyst.</strong>
+										</p>
+									</div>
+									<div class="circle-bts">
+										<a href="{% url 'leumas-sam404' %}" target="_blank"><span><i
+													class="icon la la-download"></i>Download CV</span></a>
+										<a href="https://github.com/leumasj" target="_blank"><i
+												class="icon la la-github"></i></a>
+										<a href="https://twitter.com/haryourr" target="_blank"><i
+												class="icon la la-twitter"></i></a>
+										<a href="https://join.skype.com/invite/e69OodiEyI6c" target="_blank"><i
+												class="icon la la-skype"></i></a>
+										<a href="https://linkedin.com/in/adomeh7177" target="_blank"><i
+												class="icon la la-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Services
+						-->
+						<div class="content services">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- title -->
+									<div class="title"><span>Services</span> Offered,</div>
+
+								</div>
+							</div>
+
+							<!-- service items -->
+							<div class="row service-items">
+
+								<!-- service item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="service-item card-box">
+										<div class="icon"><i class="la la-html5"></i></div>
+										<div class="name">Full Stack</div>
+										<p>
+											Front End Architecture & Design Re-engineering Services Testing 
+											& Performance Tuning Existing Site to Responsive Conversion UI / UX Development CMS 
+											& eCommerce Theming Services Custom JavaScript Based Solutions.
+										</p>
+									</div>
+								</div>
+
+								<!-- service item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="service-item card-box">
+										<div class="icon"><i class="la la-laptop"></i></div>
+										<div class="name">Data Engineering</div>
+										<p>
+											Data discovery & Data maturity assessment, Data quality checks and standardization services, 
+											Cloud-based scalable solutions for large volumes of data, Real-time and batch data processing, 
+											Optimization of database and data warehouse platforms, Data Visualization,
+											Web API & data streaming development, Agile and customer-oriented work process.
+										</p>
+										<p>
+											PowerBI, Google App Script, Tableau, Google sheets and other.
+										</p>
+									</div>
+								</div>
+
+								<!-- service item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="service-item card-box">
+										<div class="icon"><i class="la la-bullhorn"></i></div>
+										<div class="name">DevOps Engineer</div>
+										<p>
+											Automation and Execute CI/CD, Squads as a Service, Development on Cloud Platform, Process Optimization.
+										</p>
+									</div>
+								</div>
+
+								<!-- service item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="service-item card-box">
+										<div class="icon"><i class="la la-desktop"></i></div>
+										<div class="name">Computer Architect</div>
+										<p>
+											Computer hardware upgrades, maintenance, building, networking, installations
+											and general troubleshooting
+										</p>
+									</div>
+								</div>
+
+								<!-- service item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="service-item card-box">
+										<div class="icon"><i class="la la-area-chart"></i></div>
+										<div class="name">Cloud Technology</div>
+										<p>
+											Microsoft Azure, Amazon Web Services, Google Cloud Platform.
+										</p>
+									</div>
+								</div>
+
+								<!-- service item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="service-item card-box">
+										<div class="icon"><i class="la la-camera-retro"></i></div>
+										<div class="name">IT Consultant</div>
+										<p>
+											IT Analysis, IT Strategy, IT Performance, IT Improvements and IT Implementation
+										</p>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<!--
+							Price Tables
+
+				
+
+						<!--
+							Fun Fact
+						-->
+						<div class="content fuct">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- title -->
+									<div class="title"><span>Fun</span> Facts</div>
+
+								</div>
+							</div>
+
+							<!-- fuct items -->
+							<div class="row fuct-items">
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-headphones"></i></div>
+										<div class="name">47 Albums Listened</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-trophy"></i></div>
+										<div class="name">7 Awards Won</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-lightbulb-o"></i></div>
+										<div class="name">54 Projects Completed</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-flag-o"></i></div>
+										<div class="name">15 Countries Visited</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-book"></i></div>
+										<div class="name">50+ Books Read</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-smile-o"></i></div>
+										<div class="name">Many Satisfied Customers</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+
+							</div>
+
+						</div>
+
+						<!--
+							Clients
+						-->
+						<div class="content clients">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- title -->
+									<div class="title"><span>Clients</span> Worked with - (Unit4)</div>
+
+								</div>
+							</div>
+
+							<!-- client items -->
+							<div class="row client-items">
+
+								<!-- client item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="client-item card-box">
+										<div class="image">
+											<a target="_blank" href="https://www.unit4.com/">
+												<img src="{% static 'images/clients/client_1.png' %}" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<!-- client item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="client-item card-box">
+										<div class="image">
+											<a target="_blank" href="https://www.unit4.com/">
+												<img src="{% static 'images/clients/client_3.png' %}" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<!-- client item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="client-item card-box">
+										<div class="image">
+											<a target="_blank" href="https://www.unit4.com/">
+												<img src="{% static 'images/clients/client_4.png' %}" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<!-- client item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="client-item card-box">
+										<div class="image">
+											<a target="_blank" href="https://www.unit4.com/">
+												<img src="{% static 'images/clients/client_1.png' %}" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<!-- client item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="client-item card-box">
+										<div class="image">
+											<a target="_blank" href="https://www.unit4.com/">
+												<img src="{% static 'images/clients/client_3.png' %}" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<!-- client item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="client-item card-box">
+										<div class="image">
+											<a target="_blank" href="https://www.unit4.com/">
+												<img src="{% static 'images/clients/client_4.png' %}" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<!-- client item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="client-item card-box">
+										<div class="image">
+											<a target="_blank" href="https://www.unit4.com/">
+												<img src="{% static 'images/clients/client_1.png' %}" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<!-- client item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="client-item card-box">
+										<div class="image">
+											<a target="_blank" href="https://www.unit4.com/">
+												<img src="{% static 'images/clients/client_3.png' %}" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!-- 
+				Card - Resume
+			-->
+			<div class="card-inner" id="resume-card">
+				<div class="row card-container">
+
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+
+						<!-- Resume Image -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
+							style="background-image: url({% static 'images/profile1.jpg'%})" ;></div>
+
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class=" col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">Resume</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Resume
+						-->
+						<div class="content resume">
+							<div class="row">
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+									<!-- title -->
+									<div class="title"><span>My</span> Experience</div>
+
+									<!-- resume items -->
+									<div class="resume-items card-box">
+
+										<!-- resume item -->
+										<div class="resume-item">
+											<div class="name">DevOps Engineer</div>
+											<div class="date">2019-Present <span>|</span> Unit4.</div>
+											<p>
+												Created and implemented 4 new DevOps pipelines to deliver Infrastructure as Code,
+												Developed automation for provisioning compute services, storage, and SQL servers,
+												Developed Ansible playbooks and automated the execution of routine Linux scripts
+												Provisioned resources in Azure DevOps using Azure Resource Manager and in Azure DevOps..
+												More details in my CV
+											</p>
+										</div>
+
+										<!-- resume item -->
+										<div class="resume-item">
+											<div class="name">System Analyst / Cloud Operation Engineer</div>
+											<div class="date">2015-2019 <span>|</span> Unit4.</div>
+											<p>
+												Implemented technical solutions for customer engagements as part of an 8-member team,
+												Helped 500+ customers shape their journey to adopting the cloud, 
+												providing customers with technical and strategic support on their "cloud journey",
+												Consulted, planned, designed, and implemented cloud solutions with 500+ customers,
+												Developed 150+ customer technology roadmaps to convey customer developmental needs
+												More details in my CV
+											</p>
+										</div>
+
+									</div>
+								</div>
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+									<!-- title -->
+									<div class="title"><span>My</span> Education</div>
+
+									<!-- resume items -->
+									<div class="resume-items card-box">
+
+										<!-- resume item -->
+										<div class="resume-item">
+											<div class="name">College</div>
+											<div class="date">2012-2014 <span>|</span> Cyprus</div>
+											<p>
+												Bachelor in Computer Engineering (Top-Up)
+											</p>
+										</div>
+
+										<!-- resume item -->
+										<div class="resume-item">
+											<div class="name">Polythecnic</div>
+											<div class="date">2009-2012 <span>|</span> Nigeria</div>
+											<p>
+												Bachelor in Computer Science (BSc.)
+											</p>
+										</div>
+
+										<!-- resume item -->
+										<div class="resume-item">
+											<div class="name">Programming & Web Development</div>
+											<div class="date">2015-2019 <span>|</span> Online & Onsite</div>
+											<p>
+												Different Professional Certificates.
+											</p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Skills
+						-->
+						<div class="content skills">
+							<div class="row">
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+									<!-- title -->
+									<div class="title"><span>Personal</span> Skills</div>
+
+									<!-- skills -->
+									<div class="skills-list card-box">
+										<ul>
+											<li>
+												<div class="name">Communication</div>
+												<div class="progress">
+													<div class="percentage" style="width:90%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">Team Work</div>
+												<div class="progress">
+													<div class="percentage" style="width:85%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">Creative</div>
+												<div class="progress">
+													<div class="percentage" style="width:75%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">Mentor</div>
+												<div class="progress">
+													<div class="percentage" style="width:75%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">Leadership</div>
+												<div class="progress">
+													<div class="percentage" style="width:75%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">Language</div>
+												<div class="progress">
+													<div class="percentage" style="width:95%;"></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+									<!-- title -->
+									<div class="title"><span>Professional</span> Skills</div>
+
+									<!-- skills -->
+									<div class="skills-list card-box">
+										<ul>
+											<li>
+												<div class="name">DATABASE MANAGEMENT</div>
+												<div class="progress">
+													<div class="percentage" style="width:90%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">PROJECT MANAGEMENT</div>
+												<div class="progress">
+													<div class="percentage" style="width:75%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">CLOUD TECHNOLOGY</div>
+												<div class="progress">
+													<div class="percentage" style="width:65%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">IT CONSULTANT</div>
+												<div class="progress">
+													<div class="percentage" style="width:95%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">DATA ENGINEER</div>
+												<div class="progress">
+													<div class="percentage" style="width:85%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">PROGRAMMING & SCRIPTING</div>
+												<div class="progress">
+													<div class="percentage" style="width:65%;"></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!-- 
+				Card - Works
+			-->
+			<div class="card-inner" id="works-card">
+				<div class="row card-container">
+
+
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+
+						<!-- Work Image -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
+							style="background-image: url({% static 'images/profile3.jpg'%})" ;></div>
+
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">Portfolio</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Works
+						-->
+						<div class="content works">
+							<div class="row">
+								<div class="col col-m-12 col-t-5 col-d-5 col-d-lg-5">
+
+									<!-- title -->
+									<div class="title"><span>My</span> Portfolio</div>
+
+								</div>
+								<div class="col col-m-12 col-t-7 col-d-7 col-d-lg-7">
+
+									<!-- filters -->
+									<div class="filter-menu filter-button-group">
+										<div class="f_btn active">
+											<label><input type="radio" name="fl_radio" value="grid-item" />All</label>
+										</div>
+										<div class="f_btn">
+											<label><input type="radio" name="fl_radio" value="grid-item" />U4SM</label>
+										</div>
+										<div class="f_btn">
+											<label><input type="radio" name="fl_radio" value="grid-item" />U4BW</label>
+										</div>
+										<div class="f_btn">
+											<label><input type="radio" name="fl_radio"
+													value="grid-item" />U4MOBILE</label>
+										</div>
+										<div class="f_btn">
+											<label><input type="radio" name="fl_radio"
+													value="grid-item" />U4REPORT</label>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<!-- work items -->
+							<div class="row grid-items">
+
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item design">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="#popup-1" class="has-popup-media">
+												<img src="{% static 'images/works/work1.jpg' %}" alt="" />
+												<span class="info">
+													<span class="icon la la-image"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-1" class="name has-popup-media">Intergration / Migration
+											</a>
+											<div class="category">Unit4 Student Management</div>
+										</div>
+										<div id="popup-1" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="{% static 'images/works/work1.jpg' %}" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>U4 Student Management</h1>
+														<div class="blog-detail">U4SM</div>
+														<div class="blog-content">
+															<p>
+																Unit4 Student management needs a process to integrate
+																and migrate with the Unit4
+																business world to transfer information, such as student
+																information, transactions,
+																and other necessary information for reporting purposes.
+																Which enables companies to plan and manage
+																resources/budgets.
+															</p>
+
+															<p>
+																Tools
+															</p>
+															<ul class="list-style">
+																<li>U4HUB - Micro services </li>
+																<li>IWEB SERVICES (Soap UI)</li>
+																<li>REST API (Postman) </li>
+																<li>U4SM Configuration Manager</li>
+																<li>U4 Identity Services.</li>
+																<li>MSSQL.</li>
+															</ul>
+															<p>
+																A cloud-hosted application that is strictly managed on
+																Azure server,
+																easy deployment, solid security and easy to integrate.
+															</p>
+														</div>
+														<a target="_blank" href="https://unit4.com" class="button">
+															<span class="text">Unit4 Student Management</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item video -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item design">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="#popup-2" class="has-popup-media">
+												<img src="{% static 'images/works/work2.jpg' %}" alt="" />
+												<span class="info">
+													<span class="icon la la-image"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-2" class="name has-popup-media">System Analyst/
+												Consultant</a>
+											<div class="category">Unit4 Business World</div>
+										</div>
+										<div id="popup-2" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="{% static 'images/works/work2.jpg' %}" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>U4 Business World</h1>
+														<div class="blog-detail">U4BW</div>
+														<div class="blog-content">
+															<p>
+																Unit4 Business World is a uniquely people-centered
+																cloud ERP(Enterprise Resource Planning) software
+																solution for
+																project management, payroll, human resources and so on.
+															</p>
+
+															<p>
+																Tools
+															</p>
+															<ul class="list-style">
+																<li>U4 APPS - U4 Web, U4 Desktop, U4 Management Console
+																</li>
+																<li>Microsoft - MSSQL, Windows Server, IIS, TFS
+																	(Microsoft Azure DevOps - Scrum)</li>
+																<li>Cloud - Managed Cloud, SaaS, PaaS, IaaS </li>
+																<li>Oracel - OraDb</li>
+																<li>Visualization - VmWare Workstation, Grafana</li>
+																<li>Visual Studio & Visual Studio Code - C#, Python,
+																	Powershell, AZCLI, GIT</li>
+																<li>SOAPUI - Webservices (XML)</li>
+																<li>POSTMAN - RestApi (JSON)</li>
+
+															</ul>
+															<p>
+																ERP deployment can never be any easier than that. Fast
+																and secure
+															</p>
+														</div>
+														<a target="_blank" href="https://unit4.com" class="button">
+															<span class="text">Unit4 Business World On!</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item music -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item design">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="#popup-3" class="has-popup-media">
+												<img src="{% static 'images/works/work3.jpg' %}" alt="" />
+												<span class="info">
+													<span class="icon la la-image"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-3" class="name has-popup-media">System Analyst</a>
+											<div class="category">Unit4 Mobile Application</div>
+										</div>
+										<div id="popup-3" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="{% static 'images/works/work3.jpg' %}" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>Unit4 Mobile Application</h1>
+														<div class="blog-detail">U4MOBILE</div>
+														<div class="blog-content">
+															<p>
+																Unit4 Timesheet, Unit4 Expenses, Unit4 Tasks, Unit4
+																Reports.
+																These are all mobile applications available on the IOS
+																app store and Android app store.
+															</p>
+
+															<p>
+																Applications used
+															</p>
+															<ul class="list-style">
+																<li>Bug fixes </li>
+																<li>Product Performance & Enhancement</li>
+																<li>Product Deployment Configurations and Maintenance
+																</li>
+															</ul>
+															<p>
+																ERP on the run
+															</p>
+														</div>
+														<a target="_blank" href="https://unit4.com" class="button">
+															<span class="text">Unit4 Mobile Application</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- work item design -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item design">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="#popup-4" class="has-popup-media">
+												<img src="{% static 'images/works/work4.jpg' %}" alt="" />
+												<span class="info">
+													<span class="icon la la-image"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-4" class="name has-popup-media">U4 Report Engine</a>
+											<div class="category">Unit4 Report Engine</div>
+										</div>
+										<div id="popup-4" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="{% static 'images/works/work4.jpg' %}" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>U4 Report Engine</h1>
+														<div class="blog-detail">U4REPORT</div>
+														<div class="blog-content">
+															<p>
+																Unit4 Report Engine – This is a Unit4 external
+																application integrated
+																into the Unit4 business world as an external application
+																which deals
+																with all aspect of reporting for all the ERP modules.
+															</p>
+
+															<p>
+																Applications used
+															</p>
+															<ul class="list-style">
+																<li>Microsoft Office Suites - Microsoft Excel
+																	(Excelerator), Microsoft Word (Worderator). </li>
+																<li>IIS - Web server.</li>
+																<li>ReSQL - Custom Unit4 SQL. </li>
+																<li>XTra-Report.</li>
+																<li>RPX.</li>
+																<li>MSSQL.</li>
+															</ul>
+															<p>
+																Excellent product that gives you all the reports you
+																need.
+															</p>
+														</div>
+														<a target="_blank" href="https://unit4.com" class="button">
+															<span class="text">Unit4 Report Engine</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 
+				Card - Blog
+			-->
+			<div class="card-inner" id="blog-card">
+				<div class="row card-container">
+
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+
+						<!-- Blog Image -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
+							style="background-image: url({% static 'images/profile4.jpg'%})" ;></div>
+
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">My Blog</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Blog
+						-->
+						<div class="content blog">
+							<div class="row">
+								<div class="col col-m-12 col-t-5 col-d-5 col-d-lg-5">
+
+									<!-- title -->
+									<div class="title"><span>My</span> Blog</div>
+
+								</div>
+								<div class="col col-m-12 col-t-7 col-d-7 col-d-lg-7">
+
+									<!-- filters -->
+									<div class="all-blog">
+										<a href="{% url 'leumas-blog' %}">All Blog</a>
+									</div>
+
+								</div>
+							</div>
+
+							<!-- blog items -->
+							<div class="row">
+
+								<!-- blog item -->
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="{% url 'leumas-blogpost' %}">
+												<img src="{% static 'images/blog/blog1.jpg' %}" alt="" />
+												<span class="info">
+													<span class="icon la la-newspaper-o"></span>
+												</span>
+												<span class="date"><strong>09</strong>Jan</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="{% url 'leumas-blogpost' %}" class="name">Installing Django (Web
+												Framework) in Python</a>
+											<div class="category">Code</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- blog item -->
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="{% url 'leumas-blogpost' %}">
+												<img src="{% static 'images/blog/blog2.jpg' %}" alt="" />
+												<span class="info">
+													<span class="icon la la-newspaper-o"></span>
+												</span>
+												<span class="date"><strong>13</strong>Jan</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="{% url 'leumas-blogpost' %}" class="name">Cloud Computing - Big
+												Picture</a>
+											<div class="category">Cloud</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- blog item -->
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="{% url 'leumas-blogpost' %}">
+												<img src="{% static 'images/blog/blog1.jpg' %}" alt="" />
+												<span class="info">
+													<span class="icon la la-newspaper-o"></span>
+												</span>
+												<span class="date"><strong>09</strong>Jan</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="{% url 'leumas-blogpost' %}" class="name">Installing Django (Web
+												Framework) in Python</a>
+											<div class="category">Cloud</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!-- 
+				Card - Contacts
+			-->
+			<div class="card-inner" id="contacts-card">
+				<div class="row card-container">
+
+
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+						<!-- About Image -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
+							style="background-image: url({% static 'images/profile.jpg'%})" ;></div>
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">Contacts</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Contacts Info
+						-->
+						<div class="content contacts-info">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- title -->
+									<div class="title"><span>Get</span> in Touch</div>
+
+								</div>
+							</div>
+
+							<!-- contacts items -->
+							<div class="row contacts-items">
+
+								<!-- contacts item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="contacts-item card-box">
+										<div class="icon"><i class="la la-map-marker"></i></div>
+										<div class="name">Address</div>
+										<p>
+											Poland, Wroclaw.
+										</p>
+									</div>
+								</div>
+
+								<!-- contacts item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="contacts-item card-box">
+										<div class="icon"><i class="la la-at"></i></div>
+										<div class="name">Email</div>
+										<p>
+											adomeh@gmx.com
+											samueladomeh@gmail.com
+										</p>
+									</div>
+								</div>
+
+								<!-- contacts item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="contacts-item card-box">
+										<div class="icon"><i class="la la-phone"></i></div>
+										<div class="name">Phone</div>
+										<p>
+											+48 572 179 294
+										</p>
+									</div>
+								</div>
+
+								<!-- contacts item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="contacts-item card-box">
+										<div class="icon"><i class="la la-check-square"></i></div>
+										<div class="name">Freelance</div>
+										<p>
+											Available
+										</p>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<!---
+							Contacts Form
+						-->
+
+						<div class="content contacts-form">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- title -->
+									<div class="title"><span>Contact</span> Form</div>
+
+								</div>
+							</div>
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- form -->
+									<div class="contact_form card-box">
+										<form id="contact-form" action="{% url 'send_email' %}" role="form">
+											{% csrf_token %}
+											<div class="messages">
+												{% if messages %}
+												{% for message in messages %}
+												<div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}"
+													role="alert">
+													{{ message }}
+												</div>
+												{% endfor %}
+												{% endif %}
+												<div class="row">
+													<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+														<div class="group-val">
+															<label for="form_name"> Full Name </label>
+															<input id="form_name" type="text" name="name"
+																class="form-control"
+																placeholder="Please enter your name *"
+																required="required" data-error="Name is required." />
+															<div class="help-block with-errors"></div>
+
+														</div>
+													</div>
+													<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+														<div class="group-val">
+															<label for="form_email"> Your Email </label>
+															<input id="form_email" type="email" name="email"
+																class="form-control"
+																placeholder="Please enter your email *"
+																required="required"
+																data-error="Valid email is required." />
+															<div class="help-block with-errors"></div>
+														</div>
+													</div>
+												</div>
+												<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+													<div class="group-val">
+														<label for="form_message"> Enter your Message </label>
+														<textarea id="form_message" name="message" class="form-control"
+															placeholder="Leave me a message. *" rows="6"
+															required="required"
+															data-error="Please, leave me a message." /></textarea>
+														<div class="help-block with-errors"></div>
+													</div>
+												</div>
+											</div>
+											<div class="align-left">
+												<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+													<div class="group-val">
+														<input type="submit" class="btn btn-success btn-send"
+															value="Send Message">
+													</div>
+												</div>
+
+												<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-12"><iframe id="iframemap" src="https://maps.google.com/maps?q=Wroclaw+poland&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="100%" height="500" frameborder="0" scrolling="no"></iframe><div style="color: #333; font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-align: right; padding: 10px;">Map by <a style="color: #333; text-decoration: underline; font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-align: right;" href="http://earth3dmap.com/?from=embed" target="_blank" >Earth3DMap.com</a>
+	
+												</div>
+
+											</div>
+										</form>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!-- 
+
+			<!-- 
+				Lines Grid
+			-->
+			<div class="lines-grid">
+				<div class="row">
+					<div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3"></div>
+					<div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3">
+						<div class="lines">
+							<div class="line-1"></div>
+							<div class="line-2" style="animation-delay: 10s;"></div>
+						</div>
+					</div>
+					<div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3">
+						<div class="lines">
+							<div class="line-1"></div>
+						</div>
+					</div>
+					<div class="col col-m-0 col-t-0 col-d-0 col-d-lg-3">
+						<div class="lines">
+							<div class="line-1"></div>
+							<div class="line-2" style="animation-delay: 0s;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!--
+		jQuery Scripts
+	-->
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<script src="{% static 'js/jquery.validate.js' %}"></script>
+	<script src="{% static 'js/jquery.magnific-popup.js' %}"></script>
+	<script src="{% static 'js/imagesloaded.pkgd.js' %}"></script>
+	<script src="{% static 'js/masonry.pkgd.js' %}"></script>
+	<script src="{% static 'js/masonry-filter.js' %}"></script>
+	<script src="{% static 'js/simplebar.js' %}"></script>
+	<script src="{% static 'js/typed.js' %}"></script>
+
+	<!--
+		Google map api
+	-->
+	<!--<script src="https://maps.google.com/maps/api/js?sensor=false"></script> -->
+
+
+
+	<!--
+		Main Scripts
+	-->
+	<script src="{% static 'js/scripts.js' %}"></script>
+
+</body>
+
+</html>
