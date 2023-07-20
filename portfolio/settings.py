@@ -27,7 +27,7 @@ SECRET_KEY = '=8*9%m6g7t(k8u(k_c1_q0so3(%=9u=ut0v4m0++*jc5(d1p+2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','.web-production-e345.up.railway.app', 'www.adotech.pl', 'adotech.pl']
+ALLOWED_HOSTS = ['127.0.0.1','adomeh-portfolio.onrender.com', 'www.adotech.pl', 'adotech.pl']
 
 
 # Application definition
