@@ -22,12 +22,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '=8*9%m6g7t(k8u(k_c1_q0so3(%=9u=ut0v4m0++*jc5(d1p+2'
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.getenv("DEBUG", "False").lower() == "true"
 
-ALLOWED_HOSTS = ['127.0.0.1','.web-production-e345.up.railway.app', 'www.adotech.pl', 'adotech.pl']
+ALLOWED_HOSTS = ['127.0.0.1','adomeh-portfolio.onrender.com', 'www.adotech.pl', 'adotech.pl']
 
 
 # Application definition
@@ -83,6 +83,9 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+database_url = os.getenv("DATABASE_URL")
+DATABASES["default"] = dj_database_url.parse(database_url)
 
 
 # Password validation
