@@ -84,6 +84,8 @@ DATABASES = {
     }
 }
 
+DATABASES["default"] = dj_database_url.parse("postgres://adomey_postgressdb_user:n58luExUpoDduIsEuSm6Lj7kZQYH87xn@dpg-cisf8h18g3n42omhaseg-a.oregon-postgres.render.com/adomey_postgressdb")
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
